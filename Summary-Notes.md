@@ -20,9 +20,39 @@ To understand complex customer data, optimizing marketing strategies, and enhanc
 - step 5: customized targeted marketing
 
 ## Predictive analysis
+Perhaps the most well-known application of machine learning is predictive analysis. The use of predictive analysis in marketing range from predicting which customers are likely to make a purchase to identify those with the risk of churn. Marketing strategies can also be more effective, if taken into account seasonality and trend (time series forecasting). Predictive models can be used in different capacities, including:
+- email opening likelihood
+- purchase likelihood
+- churn prediction
+- website login frequency modeling
+- contact frequency modeling
 
 
+For develoing a good predictive models, data scientist can leverage data including:
+- demographic features about customers
+- purchase history
+- online behavior pattern
+- social media inteactions
+- search history
 
+However, one challenge in this process is to collect the data, and also analyze and interpret the results, and translate them into actionable insights. For example, sentiment analysis helps to gain customer insights, a better understanding of customer emotions and opinions, that leads to more efficient merketing efforts. PErsonalized product recommendation is another approach to improve merketing by analyzing and interpreting customer data.
+
+## A/B testing
+
+A/B testing is an essential technique among other methods in the new approach to marketing. To make comparison of two version of a marketing asset, such as email or ads, A/B testing provides is a data-driven approach to optimizing marketing materials and strategies based on actual customer behavior rather than intuition. 
+
+## Segmentation and targeting
+One of the fundamental applications of data science in marketing is segmentation. This process involves dividing a broad customer base into smaller subgroups based on shared characteristics or behaviors. Techniques such as cluster analysis enable marketers to identify distinct segments within their audience, allowing more targeted and personalized marketing efforts. 
+
+## Customer lifetime value modeling
+Customer lifetime value (CLV) provides insights into how much revenue a customer is expected to generate over their relationship with the brand. CLV modeling is a key aspect of maximizing marketing effort profitability.
+
+## integrating AI and marketing
+Employ techniques such as zero-shot learning, few-shot learning, and micro-targeting with RAG, illustrates the use of AI in marketing. 
+
+
+---
+# Key performance indicators (KPIs)
 
 
 
