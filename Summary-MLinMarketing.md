@@ -57,12 +57,21 @@ Employ techniques such as zero-shot learning, few-shot learning, and micro-targe
 A KPI is a key performance indicator that measures and quantifies the progress toward a certain goal or objective. KPIs help organizations identify strengths and weaknesses and make data-driven decisions in every aspect of business, such as marketing, finance, sales, and operation. KPIs help to track the performance of a marketing campaign and define sucess criteria. In each stage of the marketing funnel, there are KPIs associated with it. For example, siome of the KPIs during the marketing funnel could be as following:
 1. awareness stage: Number of Page Views, Number of Ad Clicks, Number of Visitors, and SEO Rankings. 
 2. engagement stage: Number of Opens, Number of Clicks, Number of Likes, Number of Qualified Leads, and cost per leads ($\frac{\text{cost of marketing}}{\text{number of leads}}$)
-3. conversion stage: 
-4. retention stage
-5. loyalty stage:
+3. conversion stage: Number of Purchases, Amount of Purchases, Number of Subscriptions, or Number of Items in Cart.
+4. retention stage: customer retention rate (CRR), customer churn rate (CCR), customer lifetime value (CLV), and cost per acquisition (CPA).
+5. loyalty stage: number of clicks, retention and churn rates, amount of purchase, net promoter score (NPS), and number of referrals 
 
 Some of the frequently used KPIs in digital and data-driven marketing are __conversion rate, cost per acquisition (CPA), customer lifetime value (CLV), and return on investment (ROI).__  A proper usage and definition of KPIs ahead of embarking on any marketing campaign is crucial for the effective measurement of marketing successes and failures.
 
+Some of the visualization tools for KPIs:
+- Bar charts: Ideal for comparing quantities across distinct categories, such as sales performance across different regions or products.
+- Pie charts: For illustrating a composition or proportion of a whole, like market share distribution.
+- Scatter plots: Use these to explore relationships between two variables, such as ad spend versus sales revenue.
+- Line charts: Suitable for showing trends over time, such as website traffic growth or sales trends.
+- Area charts: Typically used for comparing one or more series over time, or numeric values, such as website traffic across different channels.
+- Heat maps: Effective for showcasing correlations or patterns within large datasets, such as the relationship between various marketing KPIs.
+- Funnel charts: Perfect for visualizing stages in a process, particularly useful for conversion rates across a marketing or sales funnel.
+- Waterfall charts: Often used for showing additions and subtractions that sum up to the total, such as cash flows.
 
 
 
