@@ -54,6 +54,14 @@ Employ techniques such as zero-shot learning, few-shot learning, and micro-targe
 ---
 # Key performance indicators (KPIs)
 
+A KPI is a key performance indicator that measures and quantifies the progress toward a certain goal or objective. KPIs help organizations identify strengths and weaknesses and make data-driven decisions in every aspect of business, such as marketing, finance, sales, and operation. KPIs help to track the performance of a marketing campaign and define sucess criteria. In each stage of the marketing funnel, there are KPIs associated with it. For example, siome of the KPIs during the marketing funnel could be as following:
+1. awareness stage: Number of Page Views, Number of Ad Clicks, Number of Visitors, and SEO Rankings. 
+2. engagement stage: Number of Opens, Number of Clicks, Number of Likes, Number of Qualified Leads, and cost per leads ($\frac{\text{cost of marketing}}{\text{number of leads}}$)
+3. conversion stage: 
+4. retention stage
+5. loyalty stage:
+
+Some of the frequently used KPIs in digital and data-driven marketing are __conversion rate, cost per acquisition (CPA), customer lifetime value (CLV), and return on investment (ROI).__  A proper usage and definition of KPIs ahead of embarking on any marketing campaign is crucial for the effective measurement of marketing successes and failures.
 
 
 
