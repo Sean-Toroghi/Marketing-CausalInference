@@ -99,7 +99,7 @@ To run a causal inference model, we __first require to make an assumption__ and 
 - count of products in past purchases of a customer can affect the possibility of a customer to pick more than one product, as it can be used to determine whether a customer is willing to buy more than one product.
 - age, salary, purchase frequency are also can be seen as factors that affect whether a customer purchase more products.
 
-Then based on the assumptions made, we can form the following expectation formula: $E\\[\text{custoemr churn}|\text{multiple products}\\]$.
+Then based on the assumptions made, we can form the following expectation formula: $E\[\text{custoemr churn}|\text{multiple products}\] = E\[\text{custoemr churn}|\text{multiple products}\]$.
 
 
 
