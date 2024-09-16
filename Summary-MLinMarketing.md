@@ -53,7 +53,7 @@ Employ techniques such as zero-shot learning, few-shot learning, and micro-targe
 
 ---
 # Key performance indicators (KPIs)
-
+Key performance indicators (KPIs) are great at capturing the current status or results of marketing initiatives.
 A KPI is a key performance indicator that measures and quantifies the progress toward a certain goal or objective. KPIs help organizations identify strengths and weaknesses and make data-driven decisions in every aspect of business, such as marketing, finance, sales, and operation. KPIs help to track the performance of a marketing campaign and define sucess criteria. In each stage of the marketing funnel, there are KPIs associated with it. For example, siome of the KPIs during the marketing funnel could be as following:
 1. awareness stage: Number of Page Views, Number of Ad Clicks, Number of Visitors, and SEO Rankings. 
 2. engagement stage: Number of Opens, Number of Clicks, Number of Likes, Number of Qualified Leads, and cost per leads ($\frac{\text{cost of marketing}}{\text{number of leads}}$)
@@ -77,6 +77,20 @@ Some of the visualization tools for KPIs:
 
 
 
+# Examine factors affecting customer engagement, conversion, and churn
+
+While KPIs are great to detect current status, they lack the ability to show drivers, make prediction, or identify affecting factors. This is where the data scientitst skills comes handy. An example is evaluting factors influencing customer engagement, or answer to question what are the factors actually effect customer conversion or response to an ads. Furthermore, analysing customer churn requires employing methods that go beyound simple corerlation, but get deeper into the cause and effect analysis. 
+
+__Customer engagement__
+
+In marketing, one of the frst factors to measure is whether an marketing strategy results in increasing the engagement rate. Potential customers need to engage with service or product a company has to offer, before convert and make purchase. Such an engagement can be measured by number of clicks or visit to a website after sending a merketing ads. To improve a marketing campaign performance, identify and predict which factors, such as socio-economic background or people from a specific region, are more likely to reposnd positive to an ads helps to target each ads to customers with higher potential to engage. As the result, understanding how potential customers interact with different components is the key to achieving higher engagement rates and the start of targeted or personalized marketing. To achive this, methods such as regression analysis is an effective approach to understand interactions among various components that affect higher or lower engagement among target customers. Regression method can be implemented with a range of algorithms, including linear regression and its variants (Ridge/LASSO) (continous target variable), logistic regression (categorical/binary target), or an ensemble tree method such as LightGBM regressor/classifier (continous or categorical target). 
+
+__Customer conversion__
+
+Method for analyzing customer conversion, requires to have a high capability of handling complex interactiona mong variables. This is where a linear regression model lacks and methods such as decision trees are more suitable. There can be nuemerous factors affecting a customer conversion, such as socio-econmic, age, region, gneder, seasons, and other factors. Not only single factors but also combinations of various factors may have significant influences on who may convert. A small retailor with an online store has a higher likelihood to look for a promotional shipping rate on high volume shipments than a business that provides services. 
+
+
+__Customer churn__
 
 
 
