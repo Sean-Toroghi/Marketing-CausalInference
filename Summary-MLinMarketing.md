@@ -99,8 +99,39 @@ To run a causal inference model, we __first require to make an assumption__ and 
 - count of products in past purchases of a customer can affect the possibility of a customer to pick more than one product, as it can be used to determine whether a customer is willing to buy more than one product.
 - age, salary, purchase frequency are also can be seen as factors that affect whether a customer purchase more products.
 
-Then based on the assumptions made, we can form the following expectation formula: $E\[\text{custoemr churn}|\text{multiple products}\] = E\[\text{custoemr churn}|\text{multiple products}\]$.
+Then based on the assumptions made, we can form the following expectation formula as the expected customer churn due to change in the variable multiple products. Furthermore, the expectation, according to the assumptions made, can be extended to cover more priors: $E\[\text{custoemr churn}|\text{multiple products}\] = E\[\text{custoemr churn}|\text{multiple products}, \text{previous purchases (product count}, \text{age}, ...\]$. The next step is building a causal model. 
 
+A causal model takes target variable, treatment, common causes, and instruments. Common causes are the features that effect target variable and treatment. Instrument has effect on treatment, but not directly the target variable. In the above example, salary is a common cause, while age is an instument.
+
+__To validate__ the causal effect of the treatment on outcome, we can employ __refutation technique.__ This technique can be perfromed by intorducing a ranmly generated variable to the model and test if the causal estimate significantly change. Other approaches are: repalcing treatment with placebo, replacing the outcome with a dummy (unrelated) variable, or refute with bootstrapped random sample (generate multiple bootstrapped samples from the data and estimate the causal effect on each sample). 
+
+
+# Time series analysis for strategic marketing planning
+
+Time component in most cases effects marketing strategy outcome. Identify overal trends, seasonality, and anomalies helps to identify the temporal effects on marketing campaign. While analyzing impact of time series components provides a valuable insight for an efficient and timely marketing campaign, time series forecasting helps marketers to optimize marketing goals. Some examples of such uses are:
+- to increase off-season sales, forecasting the types of off-season promotions that may result in the highest sales helps to improve marketing performance.
+- in case marketing goal be to sale items in inventory, a time-series forcasting model cna help to identify demands in different regions or demographics and help marketers to focus their strategy on selling items according to demand in different regions.
+- a marketing strategy for promoting a new product/service, with the help of a time-series forecasting model can identify the best time to start a promotion campagin based on the expected demand rises or falls of similar product categories.
+
+__Time series algorithms__
+- statistical based models: ARIMA, SARIMA, Exponential smooting (EST), and Gerenalized autoregressive conditional heteroskedasticity (GARCH).
+- machine-learning based models: regression, tree-based ensemble models, and SVM.
+- deep learning based models: RNN, LSTM, MLP, CNN, combination of LSTM and CNN, and time-series specific architectures such as N-Beat and NHiTs.
+- transformers based models: Temporal fusion transformers (TFT) 
+
+
+# Semantic analysis in marketing
+
+
+
+
+# A/B testing and marketing
+
+# Application of recommendation models in marketing
+
+# Clustering analysis for customer segmentation
+
+# Employ zero-shot, few-shot, and retrieval-augmented generation (RAG) in marketing
 
 
 
