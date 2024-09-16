@@ -92,6 +92,14 @@ Method for analyzing customer conversion, requires to have a high capability of 
 
 __Customer churn__
 
+Analyzing cause of churn helps companies to identify/optimize/change factors to reduce the customer churn rate. Machine learning methods such as regression and classification, while reveal relashioships or interacton among variables, lack in identifying causes and effects of certain outcomes. Causal analysis is typically done through various experiments with control groups and treatment or experimental groups. No treatment is given to control group, while the treatment group receives the treatment. This requires to setup an experiments prior to running a marketing campaign, and restricts the after-the-fact analysis. ]However, with the existance of data, we can run a causal analysis even after lunching a marketing campaign. 
+
+To run a causal inference model, we __first require to make an assumption__ and form the causal effect of our interest based on the assumption made. For example, in a marketing campaign, to find potential cause for customer churn we can build the following assumptions:
+- having multiple products may affect the churn rate, as customers may find it difficult to pick among similar products.
+- count of products in past purchases of a customer can affect the possibility of a customer to pick more than one product, as it can be used to determine whether a customer is willing to buy more than one product.
+- age, salary, purchase frequency are also can be seen as factors that affect whether a customer purchase more products.
+
+Then based on the assumptions made, we can form the following expectation formula: $E\\[\text{custoemr churn}|\text{multiple products}\\]$.
 
 
 
