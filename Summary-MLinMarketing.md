@@ -122,6 +122,26 @@ __Time series algorithms__
 
 # Semantic analysis in marketing
 
+__References__
+- [Berger etal., Uniting the Tribes: Using Text for Marketing Insight - 2019](https://journals.sagepub.com/doi/10.1177/0022242919873106)
+
+The emerge of new approaches with the invent of transformers architectures creates new era in the field of NLP. In the field of marketing, nlp helps to uderstand csutomer sentiment for shaping a marketing strategy, or refine a brand massesing. It also can improve customer experience by means such as creating an automeated chat system and AI enhanced assistant system. Furthermore, it enables marketers to sort through unstructured text data such as customer feeback, soclial media, and product reviews. Bedide monitoring brand reputation, nlp can be used to tailor marketing massages based on customer preferences.
+
+Nowadays, sentiment analysis plays an important role in marketing. It acts as a guide for merketers to understant how people feel. Applications of sentiment analysis in marketing can be summarized into following buckets.
+- __brand monitoring__: real time monitoring of brand perception across different platforms by tracking shift in sentiment provides marketers ability to anticipate and mitigate potential PR crises.
+- __campaign analysis__: examnine emotional response to a marketing campaign allows for agile strategy adjustments. It reveals to marketer whether a campaign resonates positivel y with the tarrget audience, or there is a need to make some modifications.
+- __product feedback__: apply sentiment analysis can pinpoint specific aspects of products or services that delight or disappoint customers. This aids to understand customers needs and address them in the next product/service update.
+- __market search__: employ sentiment analysis creates a competitive edge by uncovering trends, competitor standings, and gaps in the market. For example, YouTube uses viewer preferences and trend in its recommendation algorithms. 
+
+## methods
+Transformers based algorithms, LLMs, and Generatve aI (GenAI) all transformed sentiment analysis. However, some of the techniques have downsides such as computational expense and massive processing power requirement, generating unforeseen inaccurate results or biased responses, and requirement for additional infrastructure to run them. 
+
+Beside more advance techniques, still there is a room for traditional ruled-based method to be used for sentiment analysis. Specially when the task in hand does not require more sophsticated approaches, or the gain vs cost can not justify the use of methods such as LLMs. 
+
+Some of the packages for text processing are
+- [NLTK](https://www.nltk.org/)
+- [TextBlob](https://textblob.readthedocs.io/)
+- [Gensim](https://radimrehurek.com/gensim/)
 
 
 
