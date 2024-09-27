@@ -146,6 +146,7 @@ Some of the packages for text processing are
 
 
 # A/B testing and marketing
+One application of A/B testing in the field of marketing is to help tailor marketing massage to target customers instead of mass marketing to the entire otential customer base. A/B testing can help to decide which predictive model is more suitable for a given marketing effort. In this capacity, results of differnet models addressing the same problem are compared and A/B testiing is used to pick the best model.
 
 # Application of recommendation models in marketing
 
