@@ -156,13 +156,46 @@ Market basket analysis answers to questions such as which product/s shoud be rec
 
 A conventional approach to market basket analysis is _associationn rule_ method. It computes the significance of itemset occurance in a transaction, by using a set of rule-based machine leearning methods. Associattion rule has two parts: antecedent and consequence. Antededent defines condition of a rule and consequent shows the result of a rule. Association rule uses 5 metrics to compute the strength of association rules:
 1. support: the frequency an itemset occurs in the dataset
-2. confidence: the conditional probability of itemset (X,Y) occuring given that the antecedent X has occurred: P(X,Y | X)
-3. lift: measures how much more often itemset (X,Y) occurs together than if the antecedent and consequent were independent events. It is the ratio of confidence over support.
-4. leverage measures the difference between the frequency of the antecedent and the consequent occuring together and the frequency of the antecedent and consequent if they were independent. $leverage = support(X,Y) - Support(X) support(Y)$
-5. conviction measures how much the consequent depends on the antecedent. $conviction = \frac{1-support(Y)}{1- confidence (X->Y)}$
+2. confidence: the conditional probability of itemset (X,Y) occuring given that the antecedent X has occurred: P(X,Y | X). The confidence value will be 1 if the consequent always occurs with the antecedent.
+3. lift: measures how much more often itemset (X,Y) occurs together than if the antecedent and consequent were independent events. It is the ratio of confidence over support. If the antecedent and the consequent are independent, the lift score will be 1.
+4. leverage measures the difference between the frequency of the antecedent and the consequent occuring together and the frequency of the antecedent and consequent if they were independent. $leverage = support(X,Y) - Support(X) support(Y)$. Leverage values range between –1 and 1 and if the antecedent and the consequent were independent, the leverage value will be 0.
+5. conviction measures how much the consequent depends on the antecedent. $conviction = \frac{1-support(Y)}{1- confidence (X->Y)}$. If the antecedent and the consequent are independent, then the conviction will be 1. On the other hand, if the confidence of the antecedent and consequent is 1 or if the consequent always occurs together with the antecedent, then the denominator becomes 0 and the conviction value becomes infinite.
+
+## Modern algorithms
+
+Among various approaches in building recommendation systems, some of the methods more frequently are used are as follow:
+
+- __Collaborative filtering__ in two flavors user-based and item-based
+- __Content-based filtering__
+- ___Predictive models__
+- __Hybrid models__
+
+### Collaborative filtering: user-based and item-based
+This method uses previous user behaviors, such as pages they viewed, products they purchased, or ratings they have given previously to find similar products or content to those that the users have shown interest in previously. The collaborative filtering algorithms are often built based on the similarities between users or items:
+- User-based collaborative filtering uses data to find similar users based on the pages viewed or products purchased previously.
+- Item-based collaborative filtering uses data to find items that are often bought or viewed together.
+
+The key to the collaborative filtering algorithms is to find similar users or items. There can be various metrics that can be used to measure the similarities between users or items, such as Euclidean distance, Manhattan distance, or Jaccard distance. However, cosine similarity is one of the most frequently used similarity metrics in collaborative filtering, as it focuses more on the directional similarity over the magnitude of the distance.
+
+### Content-based filtering
+Content-based filtering method uses the characteristics of products, contents, or users to recommend those that match a user’s preferences.
+### Predictive modeling
+Predictive models can also be used to build a recommendation model. A predictive model can identify the items that the users are highly likely to be interested in seeing or purchasing, based on the existing data. Furthermore, the probability output of its predictions can be used to rank the items so that more likely items are shown to the users before other less likely items.
+
+### Hybrid models
+Blending different approaches for recommendations can help improve the recommendation accuracy that single-approach recommendation systems may miss. This is to some extend, similar to ensemble models, in which the results of multiple models is more accurate that a single model.
+
+## Other approaches to build a recommendation models
+
+- Bestsellers or top views
+- Trending
+- New arrivals
+- Promotions
+
+
+
 
 # Clustering analysis for customer segmentation
-
 # Employ zero-shot, few-shot, and retrieval-augmented generation (RAG) in marketing
 
 
