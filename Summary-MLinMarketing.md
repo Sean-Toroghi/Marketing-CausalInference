@@ -150,6 +150,17 @@ One application of A/B testing in the field of marketing is to help tailor marke
 
 # Application of recommendation models in marketing
 
+Personalizing recommendation for a product/service has become a norm with the advancement of technologyu and availablity of data. In the field of marketing, personalized marketng campaign is a proven approach to work much better for dricing customer engagements and conversions compare to conventional maxx marketing campaign. One example of the tasks that recommendation model can be utilized for is market basket analysis that helps marketer better uunderstand which items/services are frequently bought together.
+
+Market basket analysis answers to questions such as which product/s shoud be recommendded to customers who are buying product i, or what product needs to be close to another group of products so customers can easily fin them. 
+
+A conventional approach to market basket analysis is _associationn rule_ method. It computes the significance of itemset occurance in a transaction, by using a set of rule-based machine leearning methods. Associattion rule has two parts: antecedent and consequence. Antededent defines condition of a rule and consequent shows the result of a rule. Association rule uses 5 metrics to compute the strength of association rules:
+1. support: the frequency an itemset occurs in the dataset
+2. confidence: the conditional probability of itemset (X,Y) occuring given that the antecedent X has occurred: P(X,Y | X)
+3. lift: measures how much more often itemset (X,Y) occurs together than if the antecedent and consequent were independent events. It is the ratio of confidence over support.
+4. leverage measures the difference between the frequency of the antecedent and the consequent occuring together and the frequency of the antecedent and consequent if they were independent. $leverage = support(X,Y) - Support(X) support(Y)$
+5. conviction measures how much the consequent depends on the antecedent. $conviction = \frac{1-support(Y)}{1- confidence (X->Y)}$
+
 # Clustering analysis for customer segmentation
 
 # Employ zero-shot, few-shot, and retrieval-augmented generation (RAG) in marketing
