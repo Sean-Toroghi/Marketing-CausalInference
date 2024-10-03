@@ -194,8 +194,24 @@ Blending different approaches for recommendations can help improve the recommend
 
 
 
-
+---
 # Clustering analysis for customer segmentation
+It is a proven fact that targeted marketing is more effective that conventional mass marketing approach. One important toolbox for data scientist is the unsupervised methods that can be used to segment customers prior to lunching a marketing campaign. Futhermore, targeted strategy based on customer segment such as geography, demographic, or interest can be used to segment customers. 
+
+One of the basic customer segmentation method is to divide customers into repat and one-time customers. Repeat customers are more reliable, and retiaining them requires less investment. Furthermore, allocating resources to retain repeat-customers can lead to building brand loyalty.
+
+__Clustering algrorithms__
+
+Beyound clustering customer based on repeat vs one-time customer identifier, segmenting customers when we have more than one factor requires unsupervised machine learning method. In most cases, there are an infinite number of ways and values you can segment the customers by. Even with limitd number of features, finding an appropriate cut-ff for each factor to break down the customer base is a challenging task. Finally, deciding about how many segment to create requires robust analysis. The clsutering algorithms (such as k-mean, k-mode, and k-prototypes) is one of the most frequently used machine learning algorithms for segmentation task. 
+
+Customer segmentation methods is not limited to clustering algorithms. Although, still clustering is the go to approach for segmentation, the new algorithms such as LLMs can be used for customer segmentatation.
+
+__Evaluate a clustering model__: to evaluate a clustering model, the following factors are needed to be considered:
+- Model performance: employ metrics such as Silhouette scores and Calinski-Harabasz Index can be used to determine model performance. This comes handy when we ant to decide about number of cluster. We can perform experiment with a range of number of cluster, and pick the one with highest score.
+- Distribution of points in a cluster: beyound evaluating model performance, it is important to check if the data points in each cluster are evenly distributed. 
+
+
+
 # Employ zero-shot, few-shot, and retrieval-augmented generation (RAG) in marketing
 
 
