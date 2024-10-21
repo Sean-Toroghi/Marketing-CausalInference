@@ -210,6 +210,16 @@ __Evaluate a clustering model__: to evaluate a clustering model, the following f
 - Model performance: employ metrics such as Silhouette scores and Calinski-Harabasz Index can be used to determine model performance. This comes handy when we ant to decide about number of cluster. We can perform experiment with a range of number of cluster, and pick the one with highest score.
 - Distribution of points in a cluster: beyound evaluating model performance, it is important to check if the data points in each cluster are evenly distributed. 
 
+---
+# Few-shot learning to enhance marketing strategy
+With a sample data with limited set of items, few-shot learning can be used to adopt a pretrained model adopted for a new task. In marketing, the ever evolving customer preference makes it hard, or imposible in some cases, to gather adequate data to build a reliable model upon it. Futhermore, any chage to market trand also effects the model performance, makes it neccessary to update model fit the current status of market. Using FSL enables marketers to quickly test a model against new strategy addressing the current status of market and customer behaviour. As an example, an adjustment to an email campaign or adoption social media content to reflect emerging trend is possible by using FSL and tailor marketing copy that aligns with a company's rebanding initiative or imporve brand consistency section.  Employ fewshot learning can optimize marketing efforts and make it more responsive and efficient.
+
+One approach is employ meta-learning helps to facilitate the FSL. Another approach is to use metric-based learning, in which models are trained to compare new instances against a few labeled examples using a learned metric or distance functio. [Model agnostic meta learning](https://interactive-maml.github.io/) is an example of meta-learning algorithm.
+
+
+
+
+
 
 
 # Employ zero-shot, few-shot, and retrieval-augmented generation (RAG) in marketing
