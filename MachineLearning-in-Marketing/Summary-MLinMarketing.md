@@ -52,6 +52,7 @@ Employ techniques such as zero-shot learning, few-shot learning, and micro-targe
 
 
 ---
+
 # Key performance indicators (KPIs)
 Key performance indicators (KPIs) are used to evalute success and failures of a marketing effort by capturing the current status or results of marketing initiatives. Improper useage of KPIs leads to gathering false information and waste resources an eventually negatively effects the business.
 
