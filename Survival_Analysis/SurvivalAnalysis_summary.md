@@ -16,4 +16,4 @@ One example of susrvival analysis is predicting the time a cancer patient has to
 To model such a scenario, predictive models have developed survival analysis option. For example, XGBoost has accelerated failuire time model (survival analysis). The steps for developing survival analysis are as following:
 1. express the label in range, with two bounds (y_lower_bound and y_upper_bound)
 2. set:  `"objective" : "survival:aft"` and `"eval_metric" : "aft-nloglik"`
-3. set `"aft_loss_distribution "` to one of the following options: `"normal", "logistic", or "extreme"`
+3. set `"aft_loss_distribution "` to one of the following options: `"normal", "logistic",` or `"extreme"`
