@@ -16,4 +16,30 @@ One example of susrvival analysis is predicting the time a cancer patient has to
 To model such a scenario, predictive models have developed survival analysis option. For example, XGBoost has accelerated failuire time model (survival analysis). The steps for developing survival analysis are as following:
 1. express the label in range, with two bounds (y_lower_bound and y_upper_bound)
 2. set:  `"objective" : "survival:aft"` and `"eval_metric" : "aft-nloglik"`
-3. set `"aft_loss_distribution "` to one of the following options: `"normal", "logistic",` or `"extreme"`
+3. set `"aft_loss_distribution "` to one of the following options: `"normal"`, `"logistic",` or `"extreme"`
+4. set `"aft_loss_distribution_scale"`
+
+```python
+import numpy as np
+import xgboost as xgb
+
+# 4-by-2 Data matrix
+X = np.array([[1, -1], [-1, 1], [0, 1], [1, 0]])
+dtrain = xgb.DMatrix(X)
+
+# Associate ranged labels with the data matrix.
+# This example shows each kind of censored labels.
+#                         uncensored    right     left  interval
+y_lower_bound = np.array([      2.0,     3.0,     0.0,     4.0])
+y_upper_bound = np.array([      2.0, +np.inf,     4.0,     5.0])
+dtrain.set_float_info('label_lower_bound', y_lower_bound)
+dtrain.set_float_info('label_upper_bound', y_upper_bound)
+
+params = {'objective': 'survival:aft',
+          'eval_metric': 'aft-nloglik',
+          'aft_loss_distribution': 'normal',
+          'aft_loss_distribution_scale': 1.20,
+          'tree_method': 'hist', 'learning_rate': 0.05, 'max_depth': 2}
+bst = xgb.train(params, dtrain, num_boost_round=5,
+                evals=[(dtrain, 'train')])
+```
